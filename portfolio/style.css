@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+.container{
+  width: 100%;
+  min-height: 100%;
+  padding-left: 20px ;
+  padding-right: 20px;
+  border-radius: 20px;
+  /* border-left: solid 1px white; */
+  /* border-right: solid 1px white; */
+ 
+  background-color: #2F3538;
+}
+.section{
+  
+  height:730px ;
+  padding-top: 30px;
+  color: #58595B;
+}
+.header{
+  min-width: 700px;
+  height: 60px;
+  position: relative ;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #231F20;
+}
+.header-logo{
+  width: 20%;
+}
+.header-menu{
+  width: 40%;
+}
+.position{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  text-decoration: none;
+  color:#E6E7E8 ;
+  font-size: 20px;
+}
+.menu{
+  text-decoration: none;
+  font-size:20px ;
+  color: #58595B;
+  
+}
+.menu:hover{
+  text-decoration: underline;
+  color: #E6E7E8;
+  transition: 1.5s;
+}
+#top,#more,#artists,#contacts{
+  background: #231F20;
+}
+.albums{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr ;
+  grid-gap: 2px;
+}
+.back{
+  left: 0;
+  min-height: 50px;
+  text-decoration: none;
+  font-size:25px ;
+  color: #58595B;
+}
+.back:hover{
+  color: #E6E7E8;
+  transition: 1.5s;
+}
+.color-box{
+  display:flex;
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  /* border: 1px solid white; */
+  margin: auto;
+  left: 100px;
+}
+#themeWhite{
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  margin:  15px 5px 0 5px ;
+  cursor: pointer;
+  border: 1px solid  black;
+}
+#themeBlack{
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 50%;
+  margin:  15px 5px 0 5px ; 
+  cursor: pointer;
+  border: 1px solid  #58595B;
+}
+#themeGrey{
+  width: 20px;
+  height: 20px;
+  background: #58595B;
+  border-radius: 50%;
+  margin:  15px 5px 0 5px ; 
+  cursor: pointer;
+  border: 1px solid  white;
+}
+#bg , #bg1 ,#bg2 ,#bg3 , #bg4 , #bg5 ,#txt1,#txt2,#txt3,#txt4{
+  transition: 1.5s;
+}
+.active{
+  background: white;
+}
+.allwares{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 100px;
+  margin: auto 0 ;
+}
+.wares{
+  margin: auto 0 ;
+  
+  width: 200px;
+  height: 200px;
+  border: 1px solid white;
+}
+.footer{
+  width: 100%;
+  min-height: 50%;
+  padding-left: 20px ;
+  padding-right: 20px;
+  height:330px ;
+  padding-top: 30px;
+  background: #231F20;
+ 
+}
